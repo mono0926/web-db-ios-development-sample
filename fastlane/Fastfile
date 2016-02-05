@@ -1,0 +1,88 @@
+fastlane_version "1.49.0"
+default_platform :ios
+
+platform :ios do
+  before_all do
+    # cocoapods
+    # carthage
+  end
+  
+  desc "テスト実行" # A
+  lane :test do
+    scan
+  end
+
+  desc "AdHocビルド配信" # B
+  lane :adhoc do
+    # AdHoc版のProvisioning Profile取得
+    sigh(
+      app_identifier: "com.mono0926.web-db-sample",
+      adhoc: false
+    ) 
+    # AdHocビルド
+    gym(
+      workspace: "web-db-adhoc.xcworkspace",
+      configuration: "AdHoc"
+    ) 
+    # Crashlytics経由でアプリ配信
+    publish_crashlytics
+  end
+
+  desc "App Storeへビルドアップロード" # C
+  lane :beta do
+    # リリース版のProvisioning Profile取得    
+    sigh(
+      app_identifier: "com.mono0926.web-db-sample",
+      adhoc: false
+    ) 
+    # Releaseビルド  
+    gym(
+      workspace: "web-db-adhoc.xcworkspace",
+      configuration: "Release"
+    )
+    # TestFlight配信
+    pilot(
+      skip_submission: true
+    ) 
+  end
+
+  desc "Crashlytics配布用の共通処理" # D
+  private_lane :publish_crashlytics do
+    crashlytics(
+      crashlytics_path: "./Crashlytics.framework",
+      groups: "internal",
+      api_token: ENV["CRASHLYTICS_API_TOKEN"],
+      build_secret: ENV["CRASHLYTICS_API_SECRET"]
+    )
+  end
+  
+  lane :release do
+    gym
+    deliver(
+        submit_for_review: true
+    )
+  end
+
+
+  # E: すべて成功したあとに呼ばれる
+  after_all do |lane|
+    slack(
+      message: "成功しました。",
+      channel: "#general"
+    )
+  end
+  
+  # F: エラー時に呼ばれる
+  error do |lane, exception|
+    slack(
+      message: "エラーが発生しました。",
+      channel: "#general"
+    )
+  end
+  
+  lane :test_myaction do
+    my_action(
+        some_param: "hello my action"
+    )
+  end
+end

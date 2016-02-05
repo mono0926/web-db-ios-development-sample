@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="afv-ol-SfL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Touch List View Controller-->
+        <scene sceneID="gSB-lH-uYo">
+            <objects>
+                <tableViewController id="afv-ol-SfL" customClass="TouchListViewController" customModule="web_db_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TzI-ae-3G6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="afv-ol-SfL" id="Cty-3y-Oeu"/>
+                            <outlet property="delegate" destination="afv-ol-SfL" id="eYe-Yb-Pov"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0j-4Y-yfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="387" y="681"/>
+        </scene>
+        <!--Touch Detail View Controller-->
+        <scene sceneID="gwT-pL-iJF">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="ldK-iV-Aa7" customClass="TouchDetailViewController" customModule="web_db_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9q8-Br-3R3"/>
+                        <viewControllerLayoutGuide type="bottom" id="O7U-MO-ZK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Da-2g-eGL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7ox-ld-xc6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eud-aQ-dg2">
+                                <rect key="frame" x="279" y="40" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7ox-ld-xc6" firstAttribute="top" secondItem="7Da-2g-eGL" secondAttribute="top" id="7D7-pc-mtj"/>
+                            <constraint firstAttribute="trailing" secondItem="7ox-ld-xc6" secondAttribute="trailing" id="BGI-43-7Us"/>
+                            <constraint firstItem="O7U-MO-ZK3" firstAttribute="top" secondItem="7ox-ld-xc6" secondAttribute="bottom" id="LvK-ho-9j2"/>
+                            <constraint firstItem="eud-aQ-dg2" firstAttribute="top" secondItem="9q8-Br-3R3" secondAttribute="bottom" constant="20" id="YF4-8w-TeL"/>
+                            <constraint firstItem="7ox-ld-xc6" firstAttribute="leading" secondItem="7Da-2g-eGL" secondAttribute="leading" id="YGr-Hd-rTo"/>
+                            <constraint firstItem="eud-aQ-dg2" firstAttribute="centerX" secondItem="7Da-2g-eGL" secondAttribute="centerX" id="ZXP-N4-9HF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="UNl-fz-3Mc"/>
+                    <connections>
+                        <outlet property="imageView" destination="7ox-ld-xc6" id="zf2-cz-dhB"/>
+                        <outlet property="titleLabel" destination="eud-aQ-dg2" id="X1K-So-Ulc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bIM-NH-HA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="681"/>
+        </scene>
+        <!--Touch PreviewV Iew Controller-->
+        <scene sceneID="yrx-ex-xwl">
+            <objects>
+                <viewController storyboardIdentifier="Preview" id="vzq-Lv-svS" customClass="TouchPreviewVIewController" customModule="web_db_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DVr-mp-3s5"/>
+                        <viewControllerLayoutGuide type="bottom" id="cgq-Y4-Fxn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YIb-cV-NRB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eeb-Yi-RE6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cgq-Y4-Fxn" firstAttribute="top" secondItem="eeb-Yi-RE6" secondAttribute="bottom" id="Lys-lh-S9Y"/>
+                            <constraint firstItem="eeb-Yi-RE6" firstAttribute="top" secondItem="YIb-cV-NRB" secondAttribute="top" id="Z4P-KB-OM8"/>
+                            <constraint firstAttribute="trailing" secondItem="eeb-Yi-RE6" secondAttribute="trailing" id="mMG-V7-Ld4"/>
+                            <constraint firstItem="eeb-Yi-RE6" firstAttribute="leading" secondItem="YIb-cV-NRB" secondAttribute="leading" id="w6s-3Y-VuY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="eeb-Yi-RE6" id="950-KE-ckI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="reD-W7-hYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="1358"/>
+        </scene>
+        <!--Touch Pressure View Controller-->
+        <scene sceneID="cAF-gu-yIy">
+            <objects>
+                <viewController storyboardIdentifier="Pressure" id="QSb-tJ-nI4" customClass="TouchPressureViewController" customModule="web_db_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dsc-8c-F4o"/>
+                        <viewControllerLayoutGuide type="bottom" id="DZT-Xt-xg3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nZc-4u-bfw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プレッシャー: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebc-Zx-vpM">
+                                <rect key="frame" x="16" y="40" width="121.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ebc-Zx-vpM" firstAttribute="top" secondItem="dsc-8c-F4o" secondAttribute="bottom" constant="20" id="D2F-pz-S3h"/>
+                            <constraint firstItem="ebc-Zx-vpM" firstAttribute="leading" secondItem="nZc-4u-bfw" secondAttribute="leading" constant="16" id="rqK-2D-KWb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pressureLabel" destination="ebc-Zx-vpM" id="Syd-qT-NqD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nvw-T3-HyD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="2044"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,10 @@
+github "Alamofire/Alamofire"
+github "DaveWoodCom/XCGLogger"
+github "krzyzanowskim/CryptoSwift"
+github "ReactKit/SwiftTask" "swift/2.0"
+github "SwiftyJSON/SwiftyJSON"
+github "realm/realm-cocoa"
+github "robb/Cartography"
+github "gram30/UIColor-Hex-Swift"
+github "xmartlabs/Eureka" ~> 1.0
+github "radex/SwiftyUserDefaults"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='オプショナル型'/>
+        <page name='Swift 2で増えた文法をなぞる'/>
+        <page name='エラー'/>
+        <page name='プロトコル拡張'/>
+    </pages>
+</playground>
