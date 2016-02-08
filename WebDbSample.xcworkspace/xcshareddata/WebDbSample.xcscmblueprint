@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "39EC6E3806DC436D259B9301561F15C81A81E7DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "39EC6E3806DC436D259B9301561F15C81A81E7DF" : 0,
+    "2DFADC9AD84CF9C31D739A31DD9C69332B3E98FE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "66B71405-747C-4250-A7CA-F43A5A574A64",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "39EC6E3806DC436D259B9301561F15C81A81E7DF" : "web-db-ios-development-sample\/",
+    "2DFADC9AD84CF9C31D739A31DD9C69332B3E98FE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WebDbSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WebDbSample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mono0926\/gihyo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DFADC9AD84CF9C31D739A31DD9C69332B3E98FE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mono0926\/web-db-ios-development-sample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39EC6E3806DC436D259B9301561F15C81A81E7DF"
+    }
+  ]
+}

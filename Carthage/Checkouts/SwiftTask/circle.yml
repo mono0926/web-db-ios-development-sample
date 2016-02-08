@@ -1,0 +1,29 @@
+machine:
+  xcode:
+    version: "7.2"
+
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init --recursive
+
+test:
+  override:
+    - set -o pipefail &&
+      xcodebuild
+        -scheme "SwiftTask"
+        clean build |
+      tee $CIRCLE_ARTIFACTS/xcode_raw-OSX.log |
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results-OSX.xml
+
+    - set -o pipefail &&
+      xcodebuild
+        CODE_SIGNING_REQUIRED=NO
+        CODE_SIGN_IDENTITY=
+        PROVISIONING_PROFILE=
+        -sdk iphonesimulator
+        -destination 'platform=iOS Simulator,OS=9.0,name=iPhone 6'
+        -scheme "SwiftTask"
+        clean build |
+      tee $CIRCLE_ARTIFACTS/xcode_raw-iOS.log |
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results-iOS.xml

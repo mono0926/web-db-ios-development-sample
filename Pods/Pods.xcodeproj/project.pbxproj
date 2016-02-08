@@ -7,180 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DFACC0DBAC873F769EC0404AF4A51C4 /* ACSimulatorRemoteNotificationsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6970A1EA3A5C689B9B85A93E5796FA0B /* ACSimulatorRemoteNotificationsService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ED2ABCF8D5F86C9B673707931B3906F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */; };
-		23B7333F7DB45582EE47B940BCD3B57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244B85993BA4085AD5F8A2EA1139008A /* Foundation.framework */; };
-		27D05FDA3D7D8BAFCF7F6DC3368D1EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244B85993BA4085AD5F8A2EA1139008A /* Foundation.framework */; };
-		38347B569B55C922B66402C492950AD1 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */; };
-		39E9A8BA169A22D44FB7822E3B0F2A53 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */; };
-		3AA497EE09234A6394B488C20CDBC086 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F91269CD84FAE91E51F53C5F8D109 /* Pods-dummy.m */; };
-		451570EC2532B5950ECAFBB06467C626 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		558937AABF73848F9731CA9A8BF3E668 /* SimulatorRemoteNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1B7B2CD0BBE5C380A0F96855E3AF4 /* SimulatorRemoteNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5777F10D932BD8BEFD9AED7FCCBB3B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244B85993BA4085AD5F8A2EA1139008A /* Foundation.framework */; };
-		59DA3E0CB343AB0A2A509F4E257599F1 /* UIApplication+SimulatorRemoteNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA86AE866C7630DD56C78995705403C /* UIApplication+SimulatorRemoteNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6408651FFFEE9C62E5FAB7C7EFF32435 /* ACSimulatorRemoteNotificationsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 07974CA2922BEEE38C31D44DD66D7ACD /* ACSimulatorRemoteNotificationsService.m */; };
-		8B6CCD531C6DDACBC96F9B8755C90DCB /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90609EF96AE1F72C5CF3B896A227779B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */; };
-		92193ADEDFAFDFC61577DF0AAC8253B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */; };
-		ABA24647A54A4BBE9568210974DDDFFE /* UIApplication+SimulatorRemoteNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 4335EF255946706A2B81CFDE151B3B18 /* UIApplication+SimulatorRemoteNotifications.m */; };
-		AE9E32330FBD9F7517FD623577213463 /* SimulatorRemoteNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D102A4ED4816F772F653B67D04D1DD9A /* SimulatorRemoteNotifications-dummy.m */; };
-		CC3A3C8101F4AF0B85A4D9900CB235AD /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2BE80299DDFA7FB0B39A897C0928806 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF8A782CBE04E9A15A505AD51D4771D /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00EAAA6D8A180EA96453542BA8C71F1C /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC5600D687CE81FA1E0E282A95F8497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		553B5C1BFD0234D7D3EE7A78D169A1BF /* UIApplication+SimulatorRemoteNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 115D2793FBEF01FA589644DA1672F484 /* UIApplication+SimulatorRemoteNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E385FB5382EFC8567FF9BB6111C13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		5BCD594BD201D9B12DC1E6642FC22522 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEA5CD091D7C4D05B6FF85665912DA8 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F870BAEADADA72E69BC65CB0A4C16E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		A03BB2DBFE9F7ECF978CE77F4C9B2EC4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A44D41112800F9D841ED1CC4BD55E /* SVIndefiniteAnimatedView.m */; };
+		A700C1D6299301672B1F41AABCAD77A1 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCEE6BB18E8703FF5FC7D5404BE24AC /* SVProgressHUD-dummy.m */; };
+		B1A5F7AE6E2F9468DE0DD50F745F604B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C3C8FF32EF001F99828788FF1829D9D4 /* SVProgressHUD.bundle */; };
+		B74C14546265C5396EB40E1C2DAAE367 /* SimulatorRemoteNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 262CC5C9D399BA039D37C1900A57F679 /* SimulatorRemoteNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2DAB7743E342986307B357DD66DAA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		D573E195C37D3D4B7C4E005E85A7D2DB /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		DF464F3B9B23C15CE890D38B6DC406D1 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FF00AEBC076CB965804CB29613F16276 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E237D1C59754A67D2F4B36E3A721D187 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179692124C6BA13D781BDCECF8CA505 /* SVProgressHUD.m */; };
+		EBF56039CD95A5C2E37F87A48EFDA122 /* SimulatorRemoteNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E590E903B16825928F1D9D2527C916E /* SimulatorRemoteNotifications-dummy.m */; };
+		F73D0CB7461B3CFC518CB2CEA0A52E88 /* ACSimulatorRemoteNotificationsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3919EF29EF94733E19640C5AD9D47CF7 /* ACSimulatorRemoteNotificationsService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F73EFFB2E4E6DF6526B68C4494642F99 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B4AE86CD858CA8853A26D0DAE26174 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7AF3E0A0948D123C354C5C99CD8FAEA /* ACSimulatorRemoteNotificationsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B64FB21758740FF8727FE195E6133F4 /* ACSimulatorRemoteNotificationsService.m */; };
+		FFC6ED1EDA47CFFAB0C5AFB772F4A11E /* UIApplication+SimulatorRemoteNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD191D80B4516F3F4B609B1CE8312D2 /* UIApplication+SimulatorRemoteNotifications.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C4A1A5D9371BCC3A8FBBDC66D7982F8 /* PBXContainerItemProxy */ = {
+		5936277D2C2A58ABB96A61E409E3CD45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A064B75A9838606659BB57FE5AC8A101;
+			remoteGlobalIDString = 489D9B84855695E77A701AA4E0EA837E;
 			remoteInfo = SVProgressHUD;
 		};
-		715FDF7B515B25D795FC8E7D6D029D8F /* PBXContainerItemProxy */ = {
+		EEEEE33BFB60BADA7D3F1696BC711CDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79BCEDE282672A918822E065E92C4BFD;
+			remoteGlobalIDString = 9B9BBF75AC23F4BDBF38B71AA94F1573;
 			remoteInfo = SimulatorRemoteNotifications;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059F91269CD84FAE91E51F53C5F8D109 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		07974CA2922BEEE38C31D44DD66D7ACD /* ACSimulatorRemoteNotificationsService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACSimulatorRemoteNotificationsService.m; path = SimulatorRemoteNotifications/ACSimulatorRemoteNotificationsService.m; sourceTree = "<group>"; };
-		160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		18821AFC1D2BAE24BF0CB925241227D9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20566A86CC020B1F1C174359D3C66016 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		244B85993BA4085AD5F8A2EA1139008A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		351BE7DBE17797BD8C867EF36E2578CD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		387CF794EB674B162C727E4FE42571CD /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		3CA86AE866C7630DD56C78995705403C /* UIApplication+SimulatorRemoteNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SimulatorRemoteNotifications.h"; path = "SimulatorRemoteNotifications/UIApplication+SimulatorRemoteNotifications.h"; sourceTree = "<group>"; };
-		3EF8A782CBE04E9A15A505AD51D4771D /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		4335EF255946706A2B81CFDE151B3B18 /* UIApplication+SimulatorRemoteNotifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SimulatorRemoteNotifications.m"; path = "SimulatorRemoteNotifications/UIApplication+SimulatorRemoteNotifications.m"; sourceTree = "<group>"; };
-		4C9B57130896BA0B0F0371122BFFAA31 /* SimulatorRemoteNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimulatorRemoteNotifications.xcconfig; sourceTree = "<group>"; };
-		5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		5312348561C2850215835FFB0F775F49 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		65AD8EBBADA999EBEF00A78761903EC4 /* SimulatorRemoteNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorRemoteNotifications-prefix.pch"; sourceTree = "<group>"; };
-		6970A1EA3A5C689B9B85A93E5796FA0B /* ACSimulatorRemoteNotificationsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACSimulatorRemoteNotificationsService.h; path = SimulatorRemoteNotifications/ACSimulatorRemoteNotificationsService.h; sourceTree = "<group>"; };
-		761299ED0164B5B0AEF06B7AA147DAA0 /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		0A85818E3B7387BEB13CBE291117EA8E /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		115D2793FBEF01FA589644DA1672F484 /* UIApplication+SimulatorRemoteNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SimulatorRemoteNotifications.h"; path = "SimulatorRemoteNotifications/UIApplication+SimulatorRemoteNotifications.h"; sourceTree = "<group>"; };
+		21B4AE86CD858CA8853A26D0DAE26174 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		22992CD316A913610F01012A7BED451F /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		262CC5C9D399BA039D37C1900A57F679 /* SimulatorRemoteNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorRemoteNotifications-umbrella.h"; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2E590E903B16825928F1D9D2527C916E /* SimulatorRemoteNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimulatorRemoteNotifications-dummy.m"; sourceTree = "<group>"; };
+		3919EF29EF94733E19640C5AD9D47CF7 /* ACSimulatorRemoteNotificationsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACSimulatorRemoteNotificationsService.h; path = SimulatorRemoteNotifications/ACSimulatorRemoteNotificationsService.h; sourceTree = "<group>"; };
+		438A44D41112800F9D841ED1CC4BD55E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		4EF449A54B4866BA4731B185CCA6F3A4 /* SimulatorRemoteNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimulatorRemoteNotifications.xcconfig; sourceTree = "<group>"; };
+		5179692124C6BA13D781BDCECF8CA505 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		6B64FB21758740FF8727FE195E6133F4 /* ACSimulatorRemoteNotificationsService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACSimulatorRemoteNotificationsService.m; path = SimulatorRemoteNotifications/ACSimulatorRemoteNotificationsService.m; sourceTree = "<group>"; };
+		7585FE09684E73CF92CA9AB1300433A5 /* SimulatorRemoteNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimulatorRemoteNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8A2E8891DFEBAF0A0B4A02A3D8F3BC8F /* SimulatorRemoteNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimulatorRemoteNotifications.modulemap; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9B8830824F61CFC975B8D04112868856 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		A2FD2DA3E49CE889B41A4118755CD105 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E7123F567354CC289ACF7A88F4B468 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C0FC0E53D28996360C33A6E3CD304F66 /* SimulatorRemoteNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimulatorRemoteNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C13C6190BAE7A5B5800D3D3EE0D0481C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD191D80B4516F3F4B609B1CE8312D2 /* UIApplication+SimulatorRemoteNotifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SimulatorRemoteNotifications.m"; path = "SimulatorRemoteNotifications/UIApplication+SimulatorRemoteNotifications.m"; sourceTree = "<group>"; };
+		C3C8FF32EF001F99828788FF1829D9D4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		C425CB38AF9772C3DCC0F5D3545A5894 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA5CD091D7C4D05B6FF85665912DA8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		D102A4ED4816F772F653B67D04D1DD9A /* SimulatorRemoteNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimulatorRemoteNotifications-dummy.m"; sourceTree = "<group>"; };
+		D6797F6222D110C75C72F0F3283559FF /* SimulatorRemoteNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorRemoteNotifications-prefix.pch"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DDCEE6BB18E8703FF5FC7D5404BE24AC /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E0B9A32C73E448A4DD1F21549C625BB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAD1B7B2CD0BBE5C380A0F96855E3AF4 /* SimulatorRemoteNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorRemoteNotifications-umbrella.h"; sourceTree = "<group>"; };
-		EBE4DCCE7A318B163E32A6DEC2C07C8C /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		EE7919235D1AAB9241AA6142357B78F5 /* SimulatorRemoteNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimulatorRemoteNotifications.modulemap; sourceTree = "<group>"; };
-		F55CA0298BA93543F7198790C3020C0C /* SimulatorRemoteNotifications-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SimulatorRemoteNotifications-Private.xcconfig"; sourceTree = "<group>"; };
-		F91D2D23C0831E2172B4917B49F6B86A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF00AEBC076CB965804CB29613F16276 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25000D17D7C4CBF97FDCCFCD5738BBB7 /* Frameworks */ = {
+		26F3E4AD696CCD4B38D70CC871C53780 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D05FDA3D7D8BAFCF7F6DC3368D1EBA /* Foundation.framework in Frameworks */,
+				D2DAB7743E342986307B357DD66DAA22 /* Foundation.framework in Frameworks */,
+				91F870BAEADADA72E69BC65CB0A4C16E /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76022887D3FA8066E886587DC6DACE17 /* Frameworks */ = {
+		5B37D4C33B4D6201F3D7AC5A3A49CF3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B7333F7DB45582EE47B940BCD3B57A /* Foundation.framework in Frameworks */,
-				92193ADEDFAFDFC61577DF0AAC8253B9 /* QuartzCore.framework in Frameworks */,
+				55E385FB5382EFC8567FF9BB6111C13F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6CF74BEA3073FDCA4262BBCCE3CA96C /* Frameworks */ = {
+		CF6C641DE97C3BA1727F3004C6FC174D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5777F10D932BD8BEFD9AED7FCCBB3B3C /* Foundation.framework in Frameworks */,
+				4EC5600D687CE81FA1E0E282A95F8497 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00FC04B06EEF8A155D545C321FDCC389 /* iOS */ = {
+		04D57E92703E6B7B1A80799DA5C6CA61 /* SimulatorRemoteNotifications */ = {
 			isa = PBXGroup;
 			children = (
-				244B85993BA4085AD5F8A2EA1139008A /* Foundation.framework */,
-				C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */,
+				3919EF29EF94733E19640C5AD9D47CF7 /* ACSimulatorRemoteNotificationsService.h */,
+				6B64FB21758740FF8727FE195E6133F4 /* ACSimulatorRemoteNotificationsService.m */,
+				115D2793FBEF01FA589644DA1672F484 /* UIApplication+SimulatorRemoteNotifications.h */,
+				BDD191D80B4516F3F4B609B1CE8312D2 /* UIApplication+SimulatorRemoteNotifications.m */,
+				8F82E48A298B8F0A9553D93B1C6149EF /* Support Files */,
+			);
+			path = SimulatorRemoteNotifications;
+			sourceTree = "<group>";
+		};
+		10AC3CAFF45F1BA5ACC530B63EAA1EBC /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA5CD091D7C4D05B6FF85665912DA8 /* SVIndefiniteAnimatedView.h */,
+				438A44D41112800F9D841ED1CC4BD55E /* SVIndefiniteAnimatedView.m */,
+				FF00AEBC076CB965804CB29613F16276 /* SVProgressHUD.h */,
+				5179692124C6BA13D781BDCECF8CA505 /* SVProgressHUD.m */,
+				419568278F9DC2205C7079C297B0988E /* Resources */,
+				7839947EEC8136B83F910C6BCD80D7F9 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		021D1AA45DADF5D98B50095A686F3AF5 /* Support Files */ = {
+		419568278F9DC2205C7079C297B0988E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F91D2D23C0831E2172B4917B49F6B86A /* Info.plist */,
-				EBE4DCCE7A318B163E32A6DEC2C07C8C /* SVProgressHUD.modulemap */,
-				387CF794EB674B162C727E4FE42571CD /* SVProgressHUD.xcconfig */,
-				761299ED0164B5B0AEF06B7AA147DAA0 /* SVProgressHUD-Private.xcconfig */,
-				27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */,
-				20566A86CC020B1F1C174359D3C66016 /* SVProgressHUD-prefix.pch */,
-				CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */,
+				C3C8FF32EF001F99828788FF1829D9D4 /* SVProgressHUD.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		3A9951458859B5C8214075251C70D8B5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C13C6190BAE7A5B5800D3D3EE0D0481C /* Info.plist */,
-				EE7919235D1AAB9241AA6142357B78F5 /* SimulatorRemoteNotifications.modulemap */,
-				4C9B57130896BA0B0F0371122BFFAA31 /* SimulatorRemoteNotifications.xcconfig */,
-				F55CA0298BA93543F7198790C3020C0C /* SimulatorRemoteNotifications-Private.xcconfig */,
-				D102A4ED4816F772F653B67D04D1DD9A /* SimulatorRemoteNotifications-dummy.m */,
-				65AD8EBBADA999EBEF00A78761903EC4 /* SimulatorRemoteNotifications-prefix.pch */,
-				EAD1B7B2CD0BBE5C380A0F96855E3AF4 /* SimulatorRemoteNotifications-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SimulatorRemoteNotifications";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00FC04B06EEF8A155D545C321FDCC389 /* iOS */,
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		488F2B9EB9F28A3A4FD069E6EE91F67F /* Resources */ = {
+		5C77289619698C21BD3935CE6F31F8AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */,
+				04D57E92703E6B7B1A80799DA5C6CA61 /* SimulatorRemoteNotifications */,
+				10AC3CAFF45F1BA5ACC530B63EAA1EBC /* SVProgressHUD */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4FF77799DD3B9F49307F993B74D213B5 /* SimulatorRemoteNotifications */ = {
-			isa = PBXGroup;
-			children = (
-				6970A1EA3A5C689B9B85A93E5796FA0B /* ACSimulatorRemoteNotificationsService.h */,
-				07974CA2922BEEE38C31D44DD66D7ACD /* ACSimulatorRemoteNotificationsService.m */,
-				3CA86AE866C7630DD56C78995705403C /* UIApplication+SimulatorRemoteNotifications.h */,
-				4335EF255946706A2B81CFDE151B3B18 /* UIApplication+SimulatorRemoteNotifications.m */,
-				3A9951458859B5C8214075251C70D8B5 /* Support Files */,
-			);
-			path = SimulatorRemoteNotifications;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
@@ -190,15 +180,29 @@
 				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
 				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
 				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
-				059F91269CD84FAE91E51F53C5F8D109 /* Pods-dummy.m */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
 				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
 				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
-				3EF8A782CBE04E9A15A505AD51D4771D /* Pods-umbrella.h */,
-				351BE7DBE17797BD8C867EF36E2578CD /* Pods.debug.xcconfig */,
-				5312348561C2850215835FFB0F775F49 /* Pods.release.xcconfig */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7839947EEC8136B83F910C6BCD80D7F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0B9A32C73E448A4DD1F21549C625BB5 /* Info.plist */,
+				0A85818E3B7387BEB13CBE291117EA8E /* SVProgressHUD.modulemap */,
+				22992CD316A913610F01012A7BED451F /* SVProgressHUD.xcconfig */,
+				DDCEE6BB18E8703FF5FC7D5404BE24AC /* SVProgressHUD-dummy.m */,
+				9B8830824F61CFC975B8D04112868856 /* SVProgressHUD-prefix.pch */,
+				21B4AE86CD858CA8853A26D0DAE26174 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -206,10 +210,24 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				BE39A0140CB5255C5F5E4E6E2825FA2C /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				5C77289619698C21BD3935CE6F31F8AE /* Pods */,
+				E20B76337427B25088088F5627F2C168 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8F82E48A298B8F0A9553D93B1C6149EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E7123F567354CC289ACF7A88F4B468 /* Info.plist */,
+				8A2E8891DFEBAF0A0B4A02A3D8F3BC8F /* SimulatorRemoteNotifications.modulemap */,
+				4EF449A54B4866BA4731B185CCA6F3A4 /* SimulatorRemoteNotifications.xcconfig */,
+				2E590E903B16825928F1D9D2527C916E /* SimulatorRemoteNotifications-dummy.m */,
+				D6797F6222D110C75C72F0F3283559FF /* SimulatorRemoteNotifications-prefix.pch */,
+				262CC5C9D399BA039D37C1900A57F679 /* SimulatorRemoteNotifications-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimulatorRemoteNotifications";
 			sourceTree = "<group>";
 		};
 		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
@@ -220,34 +238,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BE39A0140CB5255C5F5E4E6E2825FA2C /* Pods */ = {
+		E20B76337427B25088088F5627F2C168 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C36C28A949D6C13AD4C390DC36EAAD80 /* SVProgressHUD */,
-				4FF77799DD3B9F49307F993B74D213B5 /* SimulatorRemoteNotifications */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C36C28A949D6C13AD4C390DC36EAAD80 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */,
-				160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */,
-				5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */,
-				A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */,
-				488F2B9EB9F28A3A4FD069E6EE91F67F /* Resources */,
-				021D1AA45DADF5D98B50095A686F3AF5 /* Support Files */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				18821AFC1D2BAE24BF0CB925241227D9 /* Pods.framework */,
-				B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */,
-				C0FC0E53D28996360C33A6E3CD304F66 /* SimulatorRemoteNotifications.framework */,
+				A2FD2DA3E49CE889B41A4118755CD105 /* Pods.framework */,
+				7585FE09684E73CF92CA9AB1300433A5 /* SimulatorRemoteNotifications.framework */,
+				C425CB38AF9772C3DCC0F5D3545A5894 /* SVProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,81 +251,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		723DA5A0E056ECEC2508A8171E97D88B /* Headers */ = {
+		202E9A69C6C684BB11F035180061B859 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2BE80299DDFA7FB0B39A897C0928806 /* Pods-umbrella.h in Headers */,
+				F73D0CB7461B3CFC518CB2CEA0A52E88 /* ACSimulatorRemoteNotificationsService.h in Headers */,
+				B74C14546265C5396EB40E1C2DAAE367 /* SimulatorRemoteNotifications-umbrella.h in Headers */,
+				553B5C1BFD0234D7D3EE7A78D169A1BF /* UIApplication+SimulatorRemoteNotifications.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B06398B84D1D5749F3F0F8F4F585F8DC /* Headers */ = {
+		30C1DC4A084BA06D947192D4DC6FA0C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DFACC0DBAC873F769EC0404AF4A51C4 /* ACSimulatorRemoteNotificationsService.h in Headers */,
-				558937AABF73848F9731CA9A8BF3E668 /* SimulatorRemoteNotifications-umbrella.h in Headers */,
-				59DA3E0CB343AB0A2A509F4E257599F1 /* UIApplication+SimulatorRemoteNotifications.h in Headers */,
+				00EAAA6D8A180EA96453542BA8C71F1C /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E69C45588DCE40C46174E8134C1D7382 /* Headers */ = {
+		637D5CE1EB3602BFB02F6BCC3EADB70D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3A3C8101F4AF0B85A4D9900CB235AD /* SVIndefiniteAnimatedView.h in Headers */,
-				451570EC2532B5950ECAFBB06467C626 /* SVProgressHUD-umbrella.h in Headers */,
-				8B6CCD531C6DDACBC96F9B8755C90DCB /* SVProgressHUD.h in Headers */,
+				5BCD594BD201D9B12DC1E6642FC22522 /* SVIndefiniteAnimatedView.h in Headers */,
+				F73EFFB2E4E6DF6526B68C4494642F99 /* SVProgressHUD-umbrella.h in Headers */,
+				DF464F3B9B23C15CE890D38B6DC406D1 /* SVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31733B575E4EE468D9BD3A20B55EDE47 /* Pods */ = {
+		489D9B84855695E77A701AA4E0EA837E /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5628D624F14A2F3A339373450C51ED71 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 1B5CB0FD595E0A4776E5BDEC58A54371 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				84BBBDDEB40793941F738441E9756B65 /* Sources */,
-				B6CF74BEA3073FDCA4262BBCCE3CA96C /* Frameworks */,
-				723DA5A0E056ECEC2508A8171E97D88B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A409DA621CEA9CC9F89B2AE0B60A9358 /* PBXTargetDependency */,
-				1C318D1E450ABB5E1069E11031D35B48 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 18821AFC1D2BAE24BF0CB925241227D9 /* Pods.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		79BCEDE282672A918822E065E92C4BFD /* SimulatorRemoteNotifications */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D469715702D208729B76D0613606422B /* Build configuration list for PBXNativeTarget "SimulatorRemoteNotifications" */;
-			buildPhases = (
-				11DF4644A86E95E55D2C534A9A4ED1FC /* Sources */,
-				25000D17D7C4CBF97FDCCFCD5738BBB7 /* Frameworks */,
-				B06398B84D1D5749F3F0F8F4F585F8DC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SimulatorRemoteNotifications;
-			productName = SimulatorRemoteNotifications;
-			productReference = C0FC0E53D28996360C33A6E3CD304F66 /* SimulatorRemoteNotifications.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4F7D2F92F1A05935C16C7B7A80469E1 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
-			buildPhases = (
-				AE61CF5E10429DA9728C4B1295982CA6 /* Sources */,
-				76022887D3FA8066E886587DC6DACE17 /* Frameworks */,
-				E69C45588DCE40C46174E8134C1D7382 /* Headers */,
-				4E623279ECD2F7A3EACBDF63EE6C6A48 /* Resources */,
+				34C9909FBA14A201667843BC2B982DFC /* Sources */,
+				26F3E4AD696CCD4B38D70CC871C53780 /* Frameworks */,
+				637D5CE1EB3602BFB02F6BCC3EADB70D /* Headers */,
+				ADD392B7E6539B354F0B8B8F7060A408 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,7 +297,43 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */;
+			productReference = C425CB38AF9772C3DCC0F5D3545A5894 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B9BBF75AC23F4BDBF38B71AA94F1573 /* SimulatorRemoteNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A2CD8EAC1F9BA67627E5FBEF3608F9 /* Build configuration list for PBXNativeTarget "SimulatorRemoteNotifications" */;
+			buildPhases = (
+				D9E6172EEAA7E365804173A1C1D7D043 /* Sources */,
+				CF6C641DE97C3BA1727F3004C6FC174D /* Frameworks */,
+				202E9A69C6C684BB11F035180061B859 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulatorRemoteNotifications;
+			productName = SimulatorRemoteNotifications;
+			productReference = 7585FE09684E73CF92CA9AB1300433A5 /* SimulatorRemoteNotifications.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D42ADBFE019AA0DBDBEFB590BF83D860 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8F5A207D48951E5FDDA458A5759454 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				277FA9E55B192C5FADFB58D8EBAF0C64 /* Sources */,
+				5B37D4C33B4D6201F3D7AC5A3A49CF3A /* Frameworks */,
+				30C1DC4A084BA06D947192D4DC6FA0C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE5FEADF5B9D51E356864829969CDF8 /* PBXTargetDependency */,
+				B343A6AB417C3D2FF7543D16172AC3FF /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A2FD2DA3E49CE889B41A4118755CD105 /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -357,84 +353,84 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = E20B76337427B25088088F5627F2C168 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31733B575E4EE468D9BD3A20B55EDE47 /* Pods */,
-				A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */,
-				79BCEDE282672A918822E065E92C4BFD /* SimulatorRemoteNotifications */,
+				D42ADBFE019AA0DBDBEFB590BF83D860 /* Pods */,
+				9B9BBF75AC23F4BDBF38B71AA94F1573 /* SimulatorRemoteNotifications */,
+				489D9B84855695E77A701AA4E0EA837E /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E623279ECD2F7A3EACBDF63EE6C6A48 /* Resources */ = {
+		ADD392B7E6539B354F0B8B8F7060A408 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90609EF96AE1F72C5CF3B896A227779B /* SVProgressHUD.bundle in Resources */,
+				B1A5F7AE6E2F9468DE0DD50F745F604B /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		11DF4644A86E95E55D2C534A9A4ED1FC /* Sources */ = {
+		277FA9E55B192C5FADFB58D8EBAF0C64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6408651FFFEE9C62E5FAB7C7EFF32435 /* ACSimulatorRemoteNotificationsService.m in Sources */,
-				AE9E32330FBD9F7517FD623577213463 /* SimulatorRemoteNotifications-dummy.m in Sources */,
-				ABA24647A54A4BBE9568210974DDDFFE /* UIApplication+SimulatorRemoteNotifications.m in Sources */,
+				D573E195C37D3D4B7C4E005E85A7D2DB /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84BBBDDEB40793941F738441E9756B65 /* Sources */ = {
+		34C9909FBA14A201667843BC2B982DFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA497EE09234A6394B488C20CDBC086 /* Pods-dummy.m in Sources */,
+				A03BB2DBFE9F7ECF978CE77F4C9B2EC4 /* SVIndefiniteAnimatedView.m in Sources */,
+				A700C1D6299301672B1F41AABCAD77A1 /* SVProgressHUD-dummy.m in Sources */,
+				E237D1C59754A67D2F4B36E3A721D187 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE61CF5E10429DA9728C4B1295982CA6 /* Sources */ = {
+		D9E6172EEAA7E365804173A1C1D7D043 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ED2ABCF8D5F86C9B673707931B3906F /* SVIndefiniteAnimatedView.m in Sources */,
-				38347B569B55C922B66402C492950AD1 /* SVProgressHUD-dummy.m in Sources */,
-				39E9A8BA169A22D44FB7822E3B0F2A53 /* SVProgressHUD.m in Sources */,
+				F7AF3E0A0948D123C354C5C99CD8FAEA /* ACSimulatorRemoteNotificationsService.m in Sources */,
+				EBF56039CD95A5C2E37F87A48EFDA122 /* SimulatorRemoteNotifications-dummy.m in Sources */,
+				FFC6ED1EDA47CFFAB0C5AFB772F4A11E /* UIApplication+SimulatorRemoteNotifications.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C318D1E450ABB5E1069E11031D35B48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SimulatorRemoteNotifications;
-			target = 79BCEDE282672A918822E065E92C4BFD /* SimulatorRemoteNotifications */;
-			targetProxy = 715FDF7B515B25D795FC8E7D6D029D8F /* PBXContainerItemProxy */;
-		};
-		A409DA621CEA9CC9F89B2AE0B60A9358 /* PBXTargetDependency */ = {
+		9AE5FEADF5B9D51E356864829969CDF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */;
-			targetProxy = 0C4A1A5D9371BCC3A8FBBDC66D7982F8 /* PBXContainerItemProxy */;
+			target = 489D9B84855695E77A701AA4E0EA837E /* SVProgressHUD */;
+			targetProxy = 5936277D2C2A58ABB96A61E409E3CD45 /* PBXContainerItemProxy */;
+		};
+		B343A6AB417C3D2FF7543D16172AC3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimulatorRemoteNotifications;
+			target = 9B9BBF75AC23F4BDBF38B71AA94F1573 /* SimulatorRemoteNotifications */;
+			targetProxy = EEEEE33BFB60BADA7D3F1696BC711CDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		32E50AF0580A7A4FCC6004C885423A3C /* Release */ = {
+		34CFE77EAD2BE855661E5FB19318F5B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 761299ED0164B5B0AEF06B7AA147DAA0 /* SVProgressHUD-Private.xcconfig */;
+			baseConfigurationReference = 22992CD316A913610F01012A7BED451F /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.1.3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
@@ -445,6 +441,63 @@
 				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B4271A7D8C084F1E2EA540873B75533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22992CD316A913610F01012A7BED451F /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		425EE68C5B16F883D9F78A7E0C35FA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,35 +545,6 @@
 			};
 			name = Debug;
 		};
-		6E78E0FCEEB50789ABF8C68D420D6C7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 351BE7DBE17797BD8C867EF36E2578CD /* Pods.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,15 +579,42 @@
 			};
 			name = Release;
 		};
-		838DC7D5A96F34DE15A3493835EC27E2 /* Release */ = {
+		7B85813554C4EF5F9B3A3337004C7B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F55CA0298BA93543F7198790C3020C0C /* SimulatorRemoteNotifications-Private.xcconfig */;
+			baseConfigurationReference = 4EF449A54B4866BA4731B185CCA6F3A4 /* SimulatorRemoteNotifications.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.0.3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.0.3;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimulatorRemoteNotifications/SimulatorRemoteNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimulatorRemoteNotifications/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimulatorRemoteNotifications/SimulatorRemoteNotifications.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimulatorRemoteNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A2BAAC6D93315C912D157D29BD0AD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF449A54B4866BA4731B185CCA6F3A4 /* SimulatorRemoteNotifications.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SimulatorRemoteNotifications/SimulatorRemoteNotifications-prefix.pch";
@@ -582,36 +633,9 @@
 			};
 			name = Release;
 		};
-		954A04590AE265D3A993D05F7D08B201 /* Debug */ = {
+		97270E67C2944FD79495A9D342838E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 761299ED0164B5B0AEF06B7AA147DAA0 /* SVProgressHUD-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.1.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A1A1BC3099EA0B08610D1E10A66FC87A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5312348561C2850215835FFB0F775F49 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -624,39 +648,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F8696E167A4091F3137ACAF6483DD2F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F55CA0298BA93543F7198790C3020C0C /* SimulatorRemoteNotifications-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.0.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.0.3;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimulatorRemoteNotifications/SimulatorRemoteNotifications-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimulatorRemoteNotifications/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimulatorRemoteNotifications/SimulatorRemoteNotifications.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SimulatorRemoteNotifications;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -668,6 +666,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B5CB0FD595E0A4776E5BDEC58A54371 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4271A7D8C084F1E2EA540873B75533 /* Debug */,
+				34CFE77EAD2BE855661E5FB19318F5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -677,29 +684,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5628D624F14A2F3A339373450C51ED71 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		2E8F5A207D48951E5FDDA458A5759454 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E78E0FCEEB50789ABF8C68D420D6C7F /* Debug */,
-				A1A1BC3099EA0B08610D1E10A66FC87A /* Release */,
+				97270E67C2944FD79495A9D342838E6B /* Debug */,
+				425EE68C5B16F883D9F78A7E0C35FA3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D469715702D208729B76D0613606422B /* Build configuration list for PBXNativeTarget "SimulatorRemoteNotifications" */ = {
+		B7A2CD8EAC1F9BA67627E5FBEF3608F9 /* Build configuration list for PBXNativeTarget "SimulatorRemoteNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8696E167A4091F3137ACAF6483DD2F6 /* Debug */,
-				838DC7D5A96F34DE15A3493835EC27E2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4F7D2F92F1A05935C16C7B7A80469E1 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				954A04590AE265D3A993D05F7D08B201 /* Debug */,
-				32E50AF0580A7A4FCC6004C885423A3C /* Release */,
+				7B85813554C4EF5F9B3A3337004C7B10 /* Debug */,
+				8A2BAAC6D93315C912D157D29BD0AD10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187B95C3F4CF7335B7D20458 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2E61F0600DF79983751961 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		187B95C3F4CF7335B7D20458 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2E61F0600DF79983751961 /* Pods.framework */; };
 		FE03A7991C32583000367429 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE03A7981C32583000367429 /* Search.storyboard */; };
 		FE03A79B1C32585300367429 /* CoreSpotlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE03A79A1C32585300367429 /* CoreSpotlightViewController.swift */; };
 		FE03A79D1C325AA500367429 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE03A79C1C325AA500367429 /* Functions.swift */; };
@@ -694,6 +694,7 @@
 				FEEC43461C434EA600C6573E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
