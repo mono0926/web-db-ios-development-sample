@@ -9,7 +9,7 @@
 
 ## 第2章
 
-- Swift 2の新文法: Playground(
+- Swift 2の新文法: Playground
 
 ## 第3章
 
